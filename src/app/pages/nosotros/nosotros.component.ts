@@ -15,7 +15,7 @@ export class NosotrosComponent implements OnInit {
 
   public navbarRoutes: MenuItem[] = [
     {
-      text: 'Contact',
+      text: 'Proyects',
       path: '/pages/proyects'
     }
   ]

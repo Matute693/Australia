@@ -20,6 +20,10 @@ const routes: Routes = [
         path: 'nosotros',
         component: NosotrosComponent
       },
+      {
+        path: '**',
+        redirectTo: 'inicio'
+      }
     ]
   }
 ];

@@ -10,7 +10,7 @@
 }
 
 .title__container {
-    height: 60vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     flex-direction: column; 

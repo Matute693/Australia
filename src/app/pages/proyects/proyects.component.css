@@ -1,0 +1,27 @@
+.row {
+    margin: 0 auto;
+}
+
+.container__proyect {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container__proyect a{
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.barra {
+    height: 5px;
+    background-color: red;
+    width: 180px;
+    margin: 10px auto;
+}
+.barra-green {
+    height: 5px;
+    background-color: green;
+    width: 180px;
+    margin: 10px auto;
+}
