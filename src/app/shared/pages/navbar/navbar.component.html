@@ -1,0 +1,9 @@
+<nav class="navbar navbar-dark navbar-expand-lg navbar-light">
+  <div class="container mt-2">
+      <div *ngFor="let path of navbarRoutes" class="container-nav">
+          <div class="container__nav--item">
+              <a class="text-white h5" [routerLink]="path.path">{{path.text}}</a>
+          </div>
+      </div>
+  </div>
+</nav>

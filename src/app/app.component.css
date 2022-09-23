@@ -1,0 +1,9 @@
+
+.contenedor-inicio {
+    background: url(../assets/img/index.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    height: 30vh;
+    min-height: 30rem;
+    filter:  brightness(0.5);
+}

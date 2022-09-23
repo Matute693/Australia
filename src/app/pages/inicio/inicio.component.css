@@ -1,0 +1,18 @@
+
+.contenedor-inicio {
+    background: url(../../../assets/img/index.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    height: 30vh;
+    min-height: 30rem;
+    filter:  brightness(0.7);
+    z-index: 10;
+}
+
+.title__container {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    vertical-align: center;
+}
