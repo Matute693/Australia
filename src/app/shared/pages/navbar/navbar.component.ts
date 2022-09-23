@@ -18,8 +18,8 @@ export class NavbarComponent implements OnInit {
       path: 'pages/nosotros'
     },
     {
-      text: 'Contact',
-      path: 'pages/contacto'
+      text: 'Proyects',
+      path: 'pages/proyects'
     }
   ]
 

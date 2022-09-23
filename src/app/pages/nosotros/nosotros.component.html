@@ -1,1 +1,13 @@
-<p>nosotros works!</p>
+<div class="card bg-dark">
+    <div class="w-75 mt-3" style="margin: 0 auto;">
+        <img src="./../../../assets/img/profile.png" class="card-img-top" alt="...">
+    </div>
+    <div class="card-body">
+      <h5 class="card-title mb-3 text-white">
+        {{ job }}</h5>
+      <p class="card-text text-white">{{ textAboutMe }}</p>
+      <div *ngFor="let path of navbarRoutes" class="col-12 text-center">
+          <button [routerLink]="path.path" href="#" class="btn btn-success">{{ path.text }}</button>
+      </div>
+    </div>
+  </div>

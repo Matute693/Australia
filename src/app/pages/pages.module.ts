@@ -5,14 +5,14 @@ import { RouterModule } from '@angular/router';
 import { PagesRoutingModule } from './pages-routing.module';
 import { InicioComponent } from './inicio/inicio.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
-import { ContactoComponent } from './contacto/contacto.component';
+import { ProyectsComponent } from './proyects/proyects.component';
 
 
 @NgModule({
   declarations: [
     InicioComponent,
     NosotrosComponent,
-    ContactoComponent
+    ProyectsComponent
   ],
   imports: [
     CommonModule,
