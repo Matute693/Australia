@@ -18,8 +18,12 @@ export class ProyectsComponent implements OnInit {
       path: 'https://matiasprofile.netlify.app/'
     },
     {
-      text: 'Medical turner',
+      text: 'Calculator BMI',
       path: 'https://calculador-peso-corporal.netlify.app/'
+    },
+    {
+      text: 'Medical turner',
+      path: 'https://turnero-medico.netlify.app/'
     },
     {
       text: 'Real estate',
