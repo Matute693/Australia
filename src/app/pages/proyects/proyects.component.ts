@@ -10,6 +10,10 @@ export class ProyectsComponent implements OnInit {
 
   public proyectInformation: MenuItem[] = [
     {
+      text:'Movies',
+      path: 'https://movies-steam.netlify.app'
+    },
+    {
       text:'Rick and Morty',
       path: 'https://morty-app.netlify.app/'
     },
